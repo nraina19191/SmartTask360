@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/angular-client/" />
+  <Folder Name="/functions/" />
+  <Folder Name="/gateway/" />
+  <Folder Name="/services/" />
+  <Folder Name="/services/taskservice/">
+    <Project Path="services/taskservice/SmartTask.TaskService.Api/SmartTask.TaskService.Api.csproj" />
+    <Project Path="services/taskservice/SmartTask.TaskService.Application/SmartTask.TaskService.Application.csproj" />
+    <Project Path="services/taskservice/SmartTask.TaskService.Domain/SmartTask.TaskService.Domain.csproj" Id="6c8df63d-34dd-4aff-a3a7-85c70ead7f2f" />
+    <Project Path="services/taskservice/SmartTask.TaskService.Infrastructure/SmartTask.TaskService.Infrastructure.csproj" />
+  </Folder>
+</Solution>
