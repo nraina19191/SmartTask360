@@ -15,8 +15,12 @@ jobs:
         uses: actions/setup-dotnet@v5
         with:
           dotnet-version: '9.0.x'
-      - run: dotnet --version
-      - run: dotnet --list-sdks
+      - name: Cache NuGet
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packges
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+          restore-keys: ${{ runner.os }}-nuget
     # Restore dependencies
       - name: Restore dependencies
         run: dotnet restore SmartTask360.slnx
