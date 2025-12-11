@@ -8,5 +8,6 @@
     <Project Path="services/taskservice/SmartTask.TaskService.Application/SmartTask.TaskService.Application.csproj" />
     <Project Path="services/taskservice/SmartTask.TaskService.Domain/SmartTask.TaskService.Domain.csproj" Id="6c8df63d-34dd-4aff-a3a7-85c70ead7f2f" />
     <Project Path="services/taskservice/SmartTask.TaskService.Infrastructure/SmartTask.TaskService.Infrastructure.csproj" />
+    <Project Path="services/taskservice/SmartTask.TaskService.Tests/SmartTask.TaskService.Tests.csproj" />
   </Folder>
 </Solution>
