@@ -1,4 +1,6 @@
-﻿namespace SmartTask.TaskService.Domain
+﻿using SmartTask.Base;
+
+namespace SmartTask.TaskService.Domain
 {
     public sealed class TaskItem : BaseAuditableEntity
     {
