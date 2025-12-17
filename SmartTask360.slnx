@@ -10,4 +10,10 @@
     <Project Path="services/taskservice/SmartTask.TaskService.Infrastructure/SmartTask.TaskService.Infrastructure.csproj" />
     <Project Path="services/taskservice/SmartTask.TaskService.Tests/SmartTask.TaskService.Tests.csproj" />
   </Folder>
+  <Folder Name="/services/userservice/">
+    <Project Path="services/userservice/SmartTask.UserService.Api/SmartTask.UserService.Api.csproj" />
+    <Project Path="services/userservice/SmartTask.UserService.Application/SmartTask.UserService.Application.csproj" />
+    <Project Path="services/userservice/SmartTask.UserService.Domain/SmartTask.UserService.Domain.csproj" />
+    <Project Path="services/userservice/SmartTask.UserService.Infrastructure/SmartTask.UserService.Infrastructure.csproj" />
+  </Folder>
 </Solution>
